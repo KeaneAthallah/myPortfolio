@@ -14,9 +14,7 @@ const Projects = () => {
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
                 <Card>
                     <CardHeader className="pb-0 pt-2 px-4 flex-col items-center mt-5">
-                        <h4 className="font-bold text-large">
-                            Kotarindu.co.id
-                        </h4>
+                        <h4 className="font-bold text-large">Kotarindu</h4>
                     </CardHeader>
                     <CardBody className="overflow-visible py-2 items-center my-5">
                         <Image
@@ -33,7 +31,7 @@ const Projects = () => {
                 </Card>
                 <Card>
                     <CardHeader className="pb-0 pt-2 px-4 flex-col items-center  mt-5">
-                        <h4 className="font-bold text-large">Data Analyst</h4>
+                        <h4 className="font-bold text-large">News Portal</h4>
                     </CardHeader>
                     <CardBody className="overflow-visible py-2 items-center my-5">
                         <Image
@@ -52,9 +50,7 @@ const Projects = () => {
                 </Card>
                 <Card>
                     <CardHeader className="pb-0 pt-2 px-4 flex-col items-center mt-5">
-                        <h4 className="font-bold text-large">
-                            Hardware Programmer
-                        </h4>
+                        <h4 className="font-bold text-large">Survey IKM</h4>
                     </CardHeader>
                     <CardBody className="overflow-visible py-2 items-center my-5">
                         <Image
@@ -71,9 +67,7 @@ const Projects = () => {
                 </Card>
                 <Card>
                     <CardHeader className="pb-0 pt-2 px-4 flex-col items-center mt-5">
-                        <h4 className="font-bold text-large">
-                            Hardware Programmer
-                        </h4>
+                        <h4 className="font-bold text-large">KeanimeList</h4>
                     </CardHeader>
                     <CardBody className="overflow-visible py-2 items-center my-5">
                         <Image
