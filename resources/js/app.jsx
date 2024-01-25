@@ -6,7 +6,7 @@ import { createInertiaApp } from "@inertiajs/react";
 import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 import { CardHeader, NextUIProvider } from "@nextui-org/react";
 import Profile from "./Components/Profile";
-import { Card, CardBody, Link } from "@nextui-org/react";
+import { Card, CardBody } from "@nextui-org/react";
 import NavigationBar from "@/Components/NavigationBar";
 import Title from "./Components/Title";
 
@@ -16,14 +16,14 @@ createInertiaApp({
     title: (title) => `${title} - ${appName}`,
     resolve: (name) =>
         resolvePageComponent(
-            `./Pages/${name}.jsx`,
+            `./Pages/Frontend/${name}.jsx`,
             import.meta.glob("./Pages/**/*.jsx")
         ),
     setup({ el, App, props }) {
         const root = createRoot(el);
 
         root.render(
-            <NextUIProvider className="">
+            <NextUIProvider>
                 <main className="flex flex-col lg:flex-row m-10 gap-10 mt-20">
                     <Profile />
                     <Card className="flex-1">
@@ -35,6 +35,28 @@ createInertiaApp({
                             <App {...props} />
                         </CardBody>
                     </Card>
+                </main>
+            </NextUIProvider>
+        );
+    },
+    progress: {
+        color: "#4B5563",
+    },
+});
+createInertiaApp({
+    title: (title) => `${title} - ${appName}`,
+    resolve: (name) =>
+        resolvePageComponent(
+            `./Pages/${name}.jsx`,
+            import.meta.glob("./Pages/**/*.jsx")
+        ),
+    setup({ el, App, props }) {
+        const root = createRoot(el);
+
+        root.render(
+            <NextUIProvider>
+                <main>
+                    <App {...props} />
                 </main>
             </NextUIProvider>
         );

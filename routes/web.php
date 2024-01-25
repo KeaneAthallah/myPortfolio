@@ -34,6 +34,9 @@ Route::get('/skills', function () {
 Route::get('/contact', function () {
   return Inertia::render('ContactPage', []);
 })->name('contact');
+Route::get('/test', function () {
+  return Inertia::render('Testing', []);
+})->name('test');
 
 Route::get('/dashboard', function () {
   return Inertia::render('Dashboard');

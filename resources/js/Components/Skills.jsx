@@ -25,9 +25,9 @@ const Skills = () => {
                         <FaHtml5 className="size-16 lg:size-24" />
                     </CardBody>
                     <CardFooter className="flex-col items-start min-h-48 border-t-1">
-                        <li>Semantic writing for HTML.</li>
-                        <li>Forms and validations development.</li>
-                        <li>SEO development.</li>
+                        <li>Semantic Writing for HTML.</li>
+                        <li>Forms and Validations Development.</li>
+                        <li>SEO Development.</li>
                     </CardFooter>
                 </Card>
                 <Card className="border-1">
@@ -53,7 +53,7 @@ const Skills = () => {
                         <IoLogoJavascript className="size-16 lg:size-24" />
                     </CardBody>
                     <CardFooter className="flex-col items-start min-h-48 border-t-1">
-                        <li>DOM manipulation.</li>
+                        <li>DOM Manipulation.</li>
                         <li>Advanced Functions.</li>
                         <li>Asynchronous Programming</li>
                         <li>Modern JavaScript features</li>
@@ -143,7 +143,7 @@ const Skills = () => {
                         <FaLaravel className="size-16 lg:size-24" />
                     </CardBody>
                     <CardFooter className="flex-col items-start min-h-48 border-t-1">
-                        <li>MVC architecture.</li>
+                        <li>MVC Architecture.</li>
                         <li>Routing & Controllers.</li>
                         <li>Blade Templating.</li>
                         <li>Database Interaction with Eloquent.</li>
