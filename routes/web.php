@@ -31,6 +31,9 @@ Route::get('/certificates', function () {
 Route::get('/skills', function () {
   return Inertia::render('SkillsPage', []);
 })->name('skills');
+Route::get('/contact', function () {
+  return Inertia::render('ContactPage', []);
+})->name('contact');
 
 Route::get('/dashboard', function () {
   return Inertia::render('Dashboard');

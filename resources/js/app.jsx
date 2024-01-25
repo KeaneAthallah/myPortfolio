@@ -9,7 +9,6 @@ import Profile from "./Components/Profile";
 import { Card, CardBody, Link } from "@nextui-org/react";
 import NavigationBar from "@/Components/NavigationBar";
 import Title from "./Components/Title";
-import BottomNavigation from "./Components/BottomNavigation";
 
 const appName = import.meta.env.VITE_APP_NAME || "Laravel";
 
@@ -35,7 +34,6 @@ createInertiaApp({
                         <CardBody>
                             <App {...props} />
                         </CardBody>
-                        <BottomNavigation />
                     </Card>
                 </main>
             </NextUIProvider>

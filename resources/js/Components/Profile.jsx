@@ -5,7 +5,6 @@ import Identity from "./Identity";
 import Identity2 from "./Identity2";
 
 const Profile = () => {
-    console.log(window.innerWidth);
     return (
         <Card className="flex-2 h-3/5">
             <CardBody>
