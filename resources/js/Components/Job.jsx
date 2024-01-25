@@ -6,7 +6,7 @@ import { IoHardwareChip } from "react-icons/io5";
 
 const Job = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-5 mt-4">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 lg:gap-0 mt-4">
             <Card className="py-4 w-60">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-center">
                     <h4 className="font-bold text-xs lg:text-large">

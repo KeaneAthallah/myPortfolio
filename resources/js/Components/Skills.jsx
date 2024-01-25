@@ -10,13 +10,12 @@ import {
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoGit } from "react-icons/bi";
-import { IoLogoGithub } from "react-icons/io";
 import { SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
     return (
         <div className="mt-24 mb-10 mx-7">
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:text-medium text-xs tracking-tighter lg:tracking-normal">
                 <Card className="border-1">
                     <CardHeader className="flex-col items-center border-b-1">
                         <h4 className="font-bold text-large">HTML</h4>
