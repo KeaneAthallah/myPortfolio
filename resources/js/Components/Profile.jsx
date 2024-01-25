@@ -12,7 +12,7 @@ const Profile = () => {
                     <Image
                         isBlurred
                         width={150}
-                        src="/asset/img/7309681.jpg"
+                        src="/asset/img/3d-illustration-boy-with-camera-his-hand.jpg"
                         alt="NextUI Album Cover"
                         classNames="flex items-center"
                     />

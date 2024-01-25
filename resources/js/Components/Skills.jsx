@@ -11,6 +11,7 @@ import {
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoGit } from "react-icons/bi";
 import { SiNextdotjs } from "react-icons/si";
+import { TbBrandCpp } from "react-icons/tb";
 
 const Skills = () => {
     return (
@@ -87,6 +88,21 @@ const Skills = () => {
                         <li>Modules and Packages.</li>
                         <li>Object-Oriented Programming (OOP).</li>
                         <li>Data Science and Machine Learning.</li>
+                    </CardFooter>
+                </Card>
+                <Card className="border-1">
+                    <CardHeader className="flex-col items-center border-b-1">
+                        <h4 className="font-bold text-large">C++</h4>
+                    </CardHeader>
+                    <CardBody className="overflow-visible py-2 items-center my-4">
+                        <TbBrandCpp className="size-16 lg:size-24" />
+                    </CardBody>
+                    <CardFooter className="flex-col items-start min-h-48 border-t-1">
+                        <li>Basic Syntax.</li>
+                        <li>Pointers & References.</li>
+                        <li>Arrays & Data Structures.</li>
+                        <li>Templates & Generic Programming.</li>
+                        <li>Standard Template Library (STL).</li>
                     </CardFooter>
                 </Card>
                 <Card className="border-1">
