@@ -34,12 +34,10 @@ Route::get('/skills', function () {
 Route::get('/contact', function () {
   return Inertia::render('ContactPage', []);
 })->name('contact');
-Route::get('/test', function () {
-  return Inertia::render('Testing', []);
-})->name('test');
+
 
 Route::get('/dashboard', function () {
-  return Inertia::render('Dashboard');
+  return Inertia::render('DashboardPage');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
