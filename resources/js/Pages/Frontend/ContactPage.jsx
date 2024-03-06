@@ -7,7 +7,7 @@ const ContactPage = () => {
     return (
         <div>
             <Head title="Contact" />
-            <Title title={"My Contact"} />
+            <Title title={"My Kontak"} />
             <div className="">
                 <Contact />
             </div>
